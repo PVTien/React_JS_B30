@@ -4,7 +4,7 @@ export default class Banner extends Component {
   render() {
     return (
       <section className="banner py-5">
-        <div className="container px-5">
+        <div className="container">
           <div className="banner__content bg-light p-5">
             <h1 className="font-weight-bold">A warm welcome!</h1>
             <p>

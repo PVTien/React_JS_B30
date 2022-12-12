@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Banner from "./Banner";
 import Footer from "./Footer";
 import Header from "./Header";
+import Item from "./Item";
+import "./style.css";
 
 export default class BaiTapThucHanhLayout extends Component {
   render() {
@@ -9,6 +11,7 @@ export default class BaiTapThucHanhLayout extends Component {
       <div>
         <Header />
         <Banner />
+        <Item />
         <Footer />
       </div>
     );
